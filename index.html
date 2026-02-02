@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shadow Inventory</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "Inter", "Segoe UI", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-black text-white">
+    <div class="min-h-screen">
+      <header class="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-6">
+        <div class="flex items-center gap-3">
+          <span class="h-3 w-3 rounded-full bg-cyan-400 shadow-[0_0_12px_2px_rgba(34,211,238,0.9)]"></span>
+          <span class="text-lg font-semibold tracking-[0.2em] text-cyan-100">SHADOW</span>
+        </div>
+        <span class="rounded-full border border-cyan-500/40 px-4 py-2 text-xs uppercase tracking-[0.3em] text-cyan-300">
+          Invite only
+        </span>
+      </header>
+
+      <main class="mx-auto w-full max-w-6xl px-6 pb-16">
+        <section class="grid gap-10 py-16 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+          <div class="space-y-6">
+            <p class="inline-flex items-center gap-2 rounded-full border border-cyan-500/40 bg-cyan-500/10 px-4 py-2 text-xs uppercase tracking-[0.3em] text-cyan-300">
+              Exclusieve signalen voor woningzoekers
+            </p>
+            <h1 class="text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
+              Stop met huilen op Funda.
+            </h1>
+            <p class="max-w-xl text-lg text-slate-300">
+              Terwijl jij ververst, zijn onze bots al aan het reageren. Krijg toegang tot woningen die de massa nooit te zien krijgt.
+            </p>
+            <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
+              <button
+                class="rounded-full bg-cyan-400 px-8 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-black shadow-[0_0_18px_2px_rgba(34,211,238,0.7)] transition hover:bg-cyan-300"
+              >
+                Claim mijn voorsprong
+              </button>
+              <p class="text-sm text-slate-400">Slechts 300 plekken per stad.</p>
+            </div>
+          </div>
+          <div class="rounded-3xl border border-cyan-500/30 bg-gradient-to-br from-cyan-500/10 via-black to-emerald-500/10 p-8 shadow-[0_0_40px_rgba(16,185,129,0.15)]">
+            <div class="space-y-6">
+              <div>
+                <p class="text-xs uppercase tracking-[0.3em] text-cyan-300">Realtime alert feed</p>
+                <h2 class="mt-2 text-2xl font-semibold text-white">Shadow Inventory Live</h2>
+              </div>
+              <div class="space-y-4">
+                <div class="rounded-2xl border border-cyan-500/20 bg-black/60 p-4">
+                  <p class="text-sm text-slate-300">📍 Amsterdam • Jordaan</p>
+                  <p class="text-lg font-semibold text-cyan-200">Loft met dakterras ontdekt</p>
+                  <p class="text-xs text-slate-500">Reactietijd: 38 sec</p>
+                </div>
+                <div class="rounded-2xl border border-emerald-500/20 bg-black/60 p-4">
+                  <p class="text-sm text-slate-300">📍 Utrecht • Wittevrouwen</p>
+                  <p class="text-lg font-semibold text-emerald-200">Studio buiten de portals</p>
+                  <p class="text-xs text-slate-500">Reactietijd: 52 sec</p>
+                </div>
+                <div class="rounded-2xl border border-cyan-500/20 bg-black/60 p-4">
+                  <p class="text-sm text-slate-300">📍 Amsterdam • De Pijp</p>
+                  <p class="text-lg font-semibold text-cyan-200">Secret listing opgepikt</p>
+                  <p class="text-xs text-slate-500">Reactietijd: 24 sec</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="py-12">
+          <div class="mb-10 flex flex-col gap-4">
+            <p class="text-xs uppercase tracking-[0.3em] text-cyan-300">Hoe het werkt</p>
+            <h2 class="text-3xl font-semibold text-white">Supersnel in drie stappen</h2>
+          </div>
+          <div class="grid gap-6 md:grid-cols-3">
+            <div class="rounded-2xl border border-cyan-500/20 bg-cyan-500/5 p-6">
+              <h3 class="text-xl font-semibold text-cyan-200">We Scannen</h3>
+              <p class="mt-3 text-sm text-slate-300">
+                Onze AI checkt 24/7 de portals van grote beleggers en vage buurt-apps.
+              </p>
+            </div>
+            <div class="rounded-2xl border border-emerald-500/20 bg-emerald-500/5 p-6">
+              <h3 class="text-xl font-semibold text-emerald-200">Jij Krijgt Melding</h3>
+              <p class="mt-3 text-sm text-slate-300">
+                Ontvang een Telegram-alert binnen 60 seconden na plaatsing.
+              </p>
+            </div>
+            <div class="rounded-2xl border border-cyan-500/20 bg-cyan-500/5 p-6">
+              <h3 class="text-xl font-semibold text-cyan-200">Jij Wint</h3>
+              <p class="mt-3 text-sm text-slate-300">Reageer als eerste en claim je bezichtiging.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="py-12">
+          <div class="rounded-3xl border border-cyan-500/30 bg-gradient-to-r from-cyan-500/15 via-black to-emerald-500/10 p-8 text-center">
+            <p class="text-lg text-slate-200">
+              Al 450+ woningzoekenden in Amsterdam en Utrecht gebruiken Shadow Inventory om de wachtrij over te slaan.
+            </p>
+          </div>
+        </section>
+
+        <section class="py-12">
+          <div class="grid gap-6 lg:grid-cols-[1fr_0.8fr]">
+            <div class="space-y-4">
+              <p class="text-xs uppercase tracking-[0.3em] text-cyan-300">Direct toegang</p>
+              <h2 class="text-3xl font-semibold text-white">Start vandaag nog in de schaduw.</h2>
+              <p class="text-slate-300">
+                Geen wachtrijen, geen makelaarsstress. Jij krijgt de signalen eerst, wij doen het speurwerk.
+              </p>
+            </div>
+            <div class="rounded-3xl border border-emerald-500/40 bg-emerald-500/10 p-8 shadow-[0_0_30px_rgba(16,185,129,0.3)]">
+              <h3 class="text-xl font-semibold text-white">Toegang tot de Shadow Inventory.</h3>
+              <p class="mt-4 text-4xl font-semibold text-emerald-200">€14,99 per maand</p>
+              <p class="mt-2 text-sm text-emerald-100/80">Altijd opzegbaar.</p>
+              <button
+                class="mt-6 w-full rounded-full bg-emerald-400 px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-black shadow-[0_0_16px_rgba(16,185,129,0.6)] transition hover:bg-emerald-300"
+              >
+                Claim mijn voorsprong
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="py-12">
+          <div class="mb-8 flex flex-col gap-2">
+            <p class="text-xs uppercase tracking-[0.3em] text-cyan-300">FAQ</p>
+            <h2 class="text-3xl font-semibold text-white">Veelgestelde vragen</h2>
+          </div>
+          <div class="space-y-4">
+            <div class="rounded-2xl border border-cyan-500/20 bg-black/60 p-6">
+              <h3 class="text-lg font-semibold text-cyan-200">Werkt dit ook buiten Amsterdam en Utrecht?</h3>
+              <p class="mt-2 text-sm text-slate-300">
+                We starten exclusief in deze steden. Meld je aan en we sturen je als eerste een invite zodra jouw regio live gaat.
+              </p>
+            </div>
+            <div class="rounded-2xl border border-emerald-500/20 bg-black/60 p-6">
+              <h3 class="text-lg font-semibold text-emerald-200">Hoe snel krijg ik een melding?</h3>
+              <p class="mt-2 text-sm text-slate-300">
+                Gemiddeld binnen 60 seconden nadat een listing online verschijnt. Soms sneller dan de beheerder het doorheeft.
+              </p>
+            </div>
+            <div class="rounded-2xl border border-cyan-500/20 bg-black/60 p-6">
+              <h3 class="text-lg font-semibold text-cyan-200">Kan ik direct opzeggen?</h3>
+              <p class="mt-2 text-sm text-slate-300">
+                Ja. Het is maandelijks en altijd opzegbaar, zonder kleine lettertjes of verborgen timers.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="border-t border-cyan-500/20 py-8">
+        <div class="mx-auto flex w-full max-w-6xl flex-col items-center justify-between gap-4 px-6 text-sm text-slate-500 sm:flex-row">
+          <p>Shadow Inventory © 2024</p>
+          <p>Voor insiders. Niet voor wachtrijen.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
